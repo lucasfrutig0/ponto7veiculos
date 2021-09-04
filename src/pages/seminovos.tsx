@@ -1,7 +1,13 @@
 import { ReactElement } from "react";
+import Layout from "../components/commons/Layout";
+import Main from "../components/commons/Main";
 
 function Seminovos(): ReactElement {
-  return <h1>Seminovos</h1>;
+  return (
+    <Layout>
+      <Main>ihu</Main>
+    </Layout>
+  );
 }
 
 export default Seminovos;

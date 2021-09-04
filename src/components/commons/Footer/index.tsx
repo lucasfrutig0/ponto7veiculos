@@ -21,8 +21,8 @@ function Footer(): ReactElement {
             <svg
               fill="currentColor"
               strokeLinecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="w-5 h-5"
               viewBox="0 0 24 24"
             >
@@ -33,8 +33,8 @@ function Footer(): ReactElement {
             <svg
               fill="currentColor"
               strokeLinecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="w-5 h-5"
               viewBox="0 0 24 24"
             >
@@ -46,8 +46,8 @@ function Footer(): ReactElement {
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="w-5 h-5"
               viewBox="0 0 24 24"
             >
@@ -60,8 +60,8 @@ function Footer(): ReactElement {
               fill="currentColor"
               stroke="currentColor"
               strokeLinecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
+              strokeLinejoin="round"
+              strokeWidth="0"
               className="w-5 h-5"
               viewBox="0 0 24 24"
             >

@@ -1,14 +1,12 @@
-import { ReactElement } from "react";
+import React, { ReactElement } from "react";
 import Image from "next/image";
+import CarFeatures from "../../CarFeatures";
 
 function Card(): ReactElement {
   return (
     <>
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-2">
-        <a
-          href=""
-          className="c-card sm:mx-auto block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden"
-        >
+        <div className="c-card sm:mx-auto block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
           <div className="overflow-hidden">
             <Image
               src="/images/vwtcross.jpg" // Route of the image file
@@ -29,34 +27,13 @@ function Card(): ReactElement {
               <span className="font-bold text-xl"> 45,00</span>
             </div>
           </div>
-          <div className="flex p-4 border-t border-b text-xs text-gray-700">
-            <div className="w-full flex flex-col">
-              <div className="flex items-center">
-                <i className="far fa-address-card fa-fw text-gray-900 mr-2"></i>{" "}
-                2019/2020
-              </div>
-              <div className="flex items-center mb-1">
-                <i className="far fa-clock fa-fw mr-2 text-gray-900"></i> 4
-                Portas
-              </div>
-            </div>
-            <div className="w-full flex flex-col">
-              <div className="flex items-center">
-                <i className="far fa-address-card fa-fw text-gray-900 mr-2"></i>{" "}
-                2019/2020
-              </div>
-              <div className="flex items-center mb-1">
-                <i className="far fa-clock fa-fw mr-2 text-gray-900"></i> 4
-                Portas
-              </div>
-            </div>
-          </div>
-          <div className="w-full p-4 flex items-center justify-center text-sm bg-blue-600 hover:bg-blue-700 text-white uppercase">
+          <CarFeatures />
+          <div className="w-full p-4 flex items-center justify-center text-sm bg-blue-600 hover:bg-blue-700 cursor-pointer text-white uppercase">
             <span className="w-full text-center font-semibold">
               <a href="#">Ver Mais </a>
             </span>
           </div>
-        </a>
+        </div>
       </div>
     </>
   );
