@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.baseContainer {
+  max-width: 45rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.background-image {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../../public/bg-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.whatsbg {
+  background: #25d366;
+}
+
+.c-card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.c-card img:hover {
+  transform: scale(1.05);
+}
